@@ -1,0 +1,4 @@
+/opt/bin/opkg update
+/opt/bin/opkg install node
+
+ node app.js -s -e http://music.163.com -p 8888:8887&
